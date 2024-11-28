@@ -49,61 +49,26 @@ The plugin includes several examples to demonstrate its functionality. Each exam
 
 1. **3Sum**  
    ![3sum.png](src/main/resources/3sum.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/3sum.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/3sum.mp4)
 
 2. **Binary Search**  
    ![binarySearch.png](src/main/resources/binarySearch.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/binarySearch.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/binarySearch.mp4)
 3. **Double Linked List**  
    ![doubleLinkedList.png](src/main/resources/doubleLinkedList.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/doubleLinkedList.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/doubleLinkedList.mp4)
 4. **Longest Common Subsequence**  
    ![longestCommonSubsequence.png](src/main/resources/longestCommonSubsequence.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/longestCommonSubsequence.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/longestCommonSubsequence.mp4)
 5. **Remove Duplicates**  
     ![removeDuplicates.png](src/main/resources/removeDuplicates.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/removeDuplicates.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/removeDuplicates.mp4)
 6. **Rotate List**  
    ![rotateList.png](src/main/resources/rotateList.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/rotateList.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/rotateList.mp4)
 7. **Snake Order**  
    ![snakeOrder.png](src/main/resources/snakeOrder.png)
-   <details>
-   <summary>Click to expand the demo video</summary>
-   <video width="100%" controls>
-      <source src="src/main/resources/snakeOrder.mp4" type="video/mp4">
-   </video>
-   </details>
+📹 [Watch Full Video](src/main/resources/snakeOrder.mp4)
 ---
 
 For further questions or support, feel free to reach out to Grigorii Emdin or Nikita Koval.
