@@ -47,28 +47,27 @@ Once the plugin is configured, you can explore the included examples by running 
 
 The plugin includes several examples to demonstrate its functionality. Each example comes with a demonstration video for better understanding:
 
-1. **3Sum**  
-   ![3sum.png](src/main/resources/3sum.png)
-📹 [Watch Full Video](src/main/resources/3sum.mp4)
+1. **3Sum**
+   [![Watch the video](src/main/resources/3sum.png)](https://youtu.be/vZaWH9tB2PA)
 
-2. **Binary Search**  
-   ![binarySearch.png](src/main/resources/binarySearch.png)
-📹 [Watch Full Video](src/main/resources/binarySearch.mp4)
-3. **Double Linked List**  
-   ![doubleLinkedList.png](src/main/resources/doubleLinkedList.png)
-📹 [Watch Full Video](src/main/resources/doubleLinkedList.mp4)
-4. **Longest Common Subsequence**  
-   ![longestCommonSubsequence.png](src/main/resources/longestCommonSubsequence.png)
-📹 [Watch Full Video](src/main/resources/longestCommonSubsequence.mp4)
-5. **Remove Duplicates**  
-    ![removeDuplicates.png](src/main/resources/removeDuplicates.png)
-📹 [Watch Full Video](src/main/resources/removeDuplicates.mp4)
-6. **Rotate List**  
-   ![rotateList.png](src/main/resources/rotateList.png)
-📹 [Watch Full Video](src/main/resources/rotateList.mp4)
-7. **Snake Order**  
-   ![snakeOrder.png](src/main/resources/snakeOrder.png)
-📹 [Watch Full Video](src/main/resources/snakeOrder.mp4)
+2. **Binary Search**
+   [![Watch the video](src/main/resources/binarySearch.png)](https://youtu.be/aeugjFhunFE)
+   
+3. **Double Linked List**
+   [![Watch the video](src/main/resources/doubleLinkedList.png)](https://youtu.be/EHq9XHBiswo)
+
+4. **Longest Common Subsequence**
+   [![Watch the video](src/main/resources/longestCommonSubsequence.png)](https://youtu.be/WA-oWs5Yxe8)
+
+5. **Remove Duplicates**
+   [![Watch the video](src/main/resources/removeDuplicates.png)](https://youtu.be/KbKg2nJ4aY8)
+
+6. **Rotate List**
+   [![Watch the video](src/main/resources/rotateList.png)](https://youtu.be/ZjtadPaHAQ8)
+
+7. **Snake Order**
+   [![Watch the video](src/main/resources/snakeOrder.png)](https://youtu.be/fCcGs0P2R7M)
+
 ---
 
 For further questions or support, feel free to reach out to Grigorii Emdin or Nikita Koval.
