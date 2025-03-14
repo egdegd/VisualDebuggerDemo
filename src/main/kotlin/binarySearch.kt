@@ -5,8 +5,8 @@ fun binarySearch(arr: IntArray, target: Int): Int? {
 
     while (left <= right) {
         if (arr[mid] == target) return mid
-        else if (arr[mid] < target) left = mid + 1
-        else right = mid + 1
+        else if (arr[mid] < target) right = mid - 1
+        else left = mid + 1
         mid = left + (right - left) / 2
     }
     return null
@@ -15,7 +15,7 @@ fun binarySearch(arr: IntArray, target: Int): Int? {
 fun main() {
     val sortedArray = intArrayOf(1, 2, 3, 4, 5, 6)
 
-    val target = 4
+    val target = 1
 
     val result = binarySearch(sortedArray, target)
     if (result != null) {
