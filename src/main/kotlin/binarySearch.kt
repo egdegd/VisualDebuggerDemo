@@ -1,25 +1,24 @@
-fun binarySearch(arr: IntArray, target: Int): Int? {
+fun binarySearch(array: IntArray, target: Int): Int? {
     var left = 0
-    var right = arr.size - 1
-    var mid = right / 2
+    var right = array.size - 1
 
     while (left <= right) {
-        if (arr[mid] == target) return mid
-        else if (arr[mid] < target) right = mid - 1
-        else left = mid + 1
-        mid = left + (right - left) / 2
+        val mid = (left + right) / 2
+        if (array[mid] == target) return mid
+        if (array[mid] < target) left = mid + 1
+        else right = mid - 1
     }
-    return null
+
+    return null // not found
 }
 
 fun main() {
-    val sortedArray = intArrayOf(1, 2, 3, 4, 5, 6)
+    val array = intArrayOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9)
+    val target = 9
 
-    val target = 1
-
-    val result = binarySearch(sortedArray, target)
-    if (result != null) {
-        println("Element $target found at index $result")
+    val index = binarySearch(array, target)
+    if (index != null) {
+        println("Element $target found at index $index")
     } else {
         println("Element $target not found in the array")
     }
