@@ -1,24 +1,17 @@
 fun printSnakeOrder(matrix: Array<IntArray>) {
     var i = 0
-    var j = 0
 
     while (i < matrix.size) {
         if (i % 2 == 0) {
             // Left to right for even rows
-            j = 0
-            while (j < matrix[i].size - 1) {
+            for(j in 0..<matrix[i].size){
                 println(matrix[i][j])
-                j++
             }
-            println(matrix[i][j])
         } else {
             // Right to left for odd rows
-            j = matrix[i].size - 1
-            while (j > 0) {
+            for(j in matrix[i].size - 1 downTo 0){
                 println(matrix[i][j])
-                j--
             }
-            println(matrix[i][j])
         }
         i++
     }
