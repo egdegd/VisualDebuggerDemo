@@ -10,6 +10,7 @@ fun printSnakeOrder(matrix: Array<IntArray>) {
                 println(matrix[i][j])
                 j++
             }
+            println(matrix[i][j])
         } else {
             // Right to left for odd rows
             j = matrix[i].size - 1
@@ -17,6 +18,7 @@ fun printSnakeOrder(matrix: Array<IntArray>) {
                 println(matrix[i][j])
                 j--
             }
+            println(matrix[i][j])
         }
         i++
     }
