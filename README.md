@@ -23,7 +23,7 @@ This plugin is especially useful for developers who want to gain deeper insights
 
 ### Step 2: Configure Grazie Token
 1. After installing the plugin, navigate to the **IDE Settings**.
-2. Locate the `Grazie Token` field in the plugin settings:
+2. Locate the `Visual Debugger Settings` field in the plugin settings:
    <details>
    <summary>Click to expand screenshot</summary>
 
@@ -33,9 +33,15 @@ This plugin is especially useful for developers who want to gain deeper insights
 3. Insert your **Grazie Token** into the field.
 
 #### How to Obtain a Grazie Token:
-- Submit a request using [this template](https://youtrack.jetbrains.com/newIssue?project=JBAI&summary=Application+token+for+%7Bplease+indicate+the+project+name%7D&description=%23%23%23+Description%3A%0A%0A*%7BPlease+briefly+describe+the+purpose+of+your+project%7D*%0A%0A%23%23%23+Amount+of+money%3A%0A%0A*%7BPlease+add+information+for+what+amount+of+money+the+token+should+be%7D*%0A%0A%23%23%23+Environment+and+time+limit%3A%0A%0A*%7BPlease+indicate+for+what+period+of+time+the+token+is+needed+and+for+what+environment+the+token+requires+stgn%2Fprod%7D*%0A%0A%23%23%23+&c=add+Board+JBAI+QA+2024+Q2&c=Complexity+S&c=Type+Task&c=Subsystem+Backend&c=Assignee+nikolai.baranko).
-- Fill in the necessary details, including the purpose of your project, requested token duration, and environment requirements.
+There are two ways to get a Grazie Token:
 
+1. **Using Grazie Playground**
+   - Navigate to [Grazie Playground](https://platform.stgn.jetbrains.ai/).
+   - In the top-right corner, copy the **development token**.
+
+2. **Requesting a Token via YouTrack**
+   - Submit a request using [this template](https://youtrack.jetbrains.com/newIssue?project=JBAI&summary=Application+token+for+%7Bplease+indicate+the+project+name%7D&description=%23%23%23+Description%3A%0A%0A*%7BPlease+briefly+describe+the+purpose+of+your+project%7D*%0A%0A%23%23%23+Amount+of+money%3A%0A%0A*%7BPlease+add+information+for+what+amount+of+money+the+token+should+be%7D*%0A%0A%23%23%23+Environment+and+time+limit%3A%0A%0A*%7BPlease+indicate+for+what+period+of+time+the+token+is+needed+and+for+what+environment+the+token+requires+stgn%2Fprod%7D*%0A%0A%23%23%23+&c=add+Board+JBAI+QA+2024+Q2&c=Complexity+S&c=Type+Task&c=Subsystem+Backend&c=Assignee+nikolai.baranko).
+   - Fill in the necessary details, including the purpose of your project, requested token duration, and environment requirements.
 ---
 
 ### Step 3: Run Examples in Debug Mode
@@ -70,4 +76,4 @@ The plugin includes several examples to demonstrate its functionality. Each exam
 
 ---
 
-For further questions or support, feel free to reach out to Grigorii Emdin or Nikita Koval.
+For further questions or support, feel free to reach out to Dmitrii Kirkhmeier, Grigorii Emdin or Nikita Koval.
